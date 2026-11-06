@@ -26,6 +26,6 @@ watchEffect(onCleanup => {
     :options="{ autoRaf: false }"
   />
   <main class="min-h-scren relative w-screen overflow-x-hidden">
-    <div />
+    <hero />
   </main>
 </template>
