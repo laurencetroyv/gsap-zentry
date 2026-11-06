@@ -27,5 +27,6 @@ watchEffect(onCleanup => {
   />
   <main class="min-h-scren relative w-screen overflow-x-hidden">
     <hero />
+    <about />
   </main>
 </template>
