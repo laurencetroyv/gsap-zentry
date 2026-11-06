@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/icon": "^2.6.2",
     "@tailwindcss/vite": "^4.3.4",
     "nuxt": "^4.6.4",
     "tailwindcss": "^4.3.4",
@@ -17,6 +18,7 @@
     "vue-router": "^5.4.0"
   },
   "devDependencies": {
+    "@iconify-json/typcn": "^1.2.2",
     "vite-plus": "^1.5.0"
   }
 }
