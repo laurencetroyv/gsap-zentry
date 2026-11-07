@@ -33,5 +33,6 @@ watchEffect(onCleanup => {
     <hero />
     <about />
     <features />
+    <story />
   </main>
 </template>
