@@ -60,15 +60,16 @@ watch(is_nav_visible, () => {
       <nav class="flex size-full items-center justify-between p-4">
         <div class="flex items-center gap-7">
           <img
-            src="/img/logo.png"
+            src="/img/logo.jpg"
             alt="logo"
-            class="w-10"
+            class="w-10 h-10 rounded-full object-cover"
           />
 
           <custom-button
             id="product-button"
-            title="Products"
+            title="Download"
             right-icon="typcn:location-arrow"
+            @click="navigateTo('https://genshin.hoyoverse.com/', {external: true})"
             class="hidden items-center justify-center gap-1 bg-blue-50 md:flex"
           />
         </div>

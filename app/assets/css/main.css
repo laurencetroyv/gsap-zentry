@@ -154,10 +154,13 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100dvw;
   overflow-x: hidden;
-  overflow-y: hidden;
   background-color: #dfdff0;
   font-family: "General Sans", sans-serif;
 }
@@ -184,15 +187,6 @@ body {
     height: 4px;
     transform: translateY(-0px);
   }
-}
-
-.glassmorphism {
-  background: rgba(255, 255, 255, 0.11);
-  backdrop-filter: blur(8px) saturate(144%);
-  -webkit-backdrop-filter: blur(8px) saturate(144%);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
 }
 
 /* From Uiverse.io by G4b413l */
