@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import gsap from "gsap"
-import CustomButton from "~/components/custom-button.vue"
 
 const { finish } = useAppLoader()
 const total_videos = 4

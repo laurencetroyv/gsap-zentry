@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import gsap from "gsap"
-import AnimatedTitle from "~/components/animated-title.vue"
 
 useGsap(() => {
   gsap

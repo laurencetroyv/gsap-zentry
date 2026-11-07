@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import gsap from "gsap"
-import BentoTilt from "~/components/bento-tilt.vue"
-</script>
-
 <template>
   <section
     id="features"

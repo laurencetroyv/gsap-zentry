@@ -11,13 +11,12 @@ function handleMouseLeave(e: MouseEvent) {
     duration: 0.3,
     rotateX: 0,
     rotateY: 0,
-    ease: "power1.inOut"
+    ease: "power1.inOut",
   })
-
 }
 
 function handleMouseMove(e: MouseEvent) {
-  const { clientX, clientY} = e
+  const { clientX, clientY } = e
 
   const element = frame_ref.value
 
@@ -38,7 +37,7 @@ function handleMouseMove(e: MouseEvent) {
     rotateX,
     rotateY,
     transformPerspective: 500,
-    ease: "power1.inOut"
+    ease: "power1.inOut",
   })
 }
 </script>
@@ -62,14 +61,14 @@ function handleMouseMove(e: MouseEvent) {
           <div class="story-img-mask">
             <div class="story-img-content">
               <img
-                  @mouseleave="handleMouseLeave"
-                  @mouseup="handleMouseLeave"
-                  @mouseenter="handleMouseLeave"
-                  @mousemove="handleMouseMove"
-                  ref="frame-ref"
-                  src="/img/entrance.webp"
-                  alt="entrance"
-                  class="object-contain"
+                @mouseleave="handleMouseLeave"
+                @mouseup="handleMouseLeave"
+                @mouseenter="handleMouseLeave"
+                @mousemove="handleMouseMove"
+                ref="frame-ref"
+                src="/img/entrance.webp"
+                alt="entrance"
+                class="object-contain"
               />
             </div>
           </div>
@@ -78,11 +77,18 @@ function handleMouseMove(e: MouseEvent) {
         </div>
       </div>
 
-      <div class="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
+      <div class="-mt-80 flex w-full justify-center md:me-44 md:-mt-64 md:justify-end">
         <div class="flex h-full w-fit flex-col items-center md:items-start">
-          <p class="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">Where realms converge, lies Zentry and the boundless pillar. Discover its secrets and shape your fate amidst infinite opportunities.</p>
+          <p class="font-circular-web mt-3 max-w-sm text-center text-violet-50 md:text-start">
+            Where realms converge, lies Zentry and the boundless pillar. Discover its secrets and
+            shape your fate amidst infinite opportunities.
+          </p>
 
-          <custom-button id="realm-button" title="Discover Prologue" class="mt-5" />
+          <custom-button
+            id="realm-button"
+            title="Discover Prologue"
+            class="mt-5"
+          />
         </div>
       </div>
     </div>
