@@ -2,7 +2,7 @@
 import gsap from "gsap"
 const frame_ref = useTemplateRef("frame-ref")
 
-function handleMouseLeave(e: MouseEvent) {
+function handleMouseLeave() {
   const element = frame_ref.value
 
   if (!element) return
@@ -80,7 +80,8 @@ function handleMouseMove(e: MouseEvent) {
       <div class="-mt-80 flex w-full justify-center md:me-44 md:-mt-64 md:justify-end">
         <div class="flex h-full w-fit flex-col items-center md:items-start">
           <p class="font-circular-web mt-3 max-w-sm text-center text-violet-50 md:text-start">
-            Overcome endless thunderstorms and set foot on the islands of red maple and cherry blossoms.
+            Overcome endless thunderstorms and set foot on the islands of red maple and cherry
+            blossoms.
           </p>
 
           <custom-button

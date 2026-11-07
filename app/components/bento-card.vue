@@ -26,7 +26,7 @@ defineProps<Props>()
       ></h1>
       <p
         v-if="description"
-        class="mt-3 max-w-64 text-xl md:text-base p-2 bg-black/20 rounded-md"
+        class="mt-3 max-w-64 rounded-md bg-black/20 p-2 text-xl md:text-base"
       >
         {{ description }}
       </p>
