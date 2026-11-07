@@ -34,5 +34,7 @@ watchEffect(onCleanup => {
     <about />
     <features />
     <story />
+    <contact />
+    <custom-footer />
   </main>
 </template>
