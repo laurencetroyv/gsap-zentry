@@ -29,6 +29,7 @@ watchEffect(onCleanup => {
 
   <loading-animation v-if="is_loading" />
   <main class="min-h-scren relative w-screen overflow-x-hidden">
+    <navbar />
     <hero />
     <about />
   </main>
