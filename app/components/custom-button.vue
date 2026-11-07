@@ -1,6 +1,6 @@
 <script setup lang="ts">
 interface Props {
-  id: string
+  id?: string
   rightIcon?: string
   leftIcon?: string
   title: string
