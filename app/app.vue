@@ -32,5 +32,6 @@ watchEffect(onCleanup => {
     <navbar />
     <hero />
     <about />
+    <features />
   </main>
 </template>
