@@ -46,7 +46,7 @@ onUnmounted(() => ctx?.revert())
       <span
         v-for="(word, index) in text.split(' ')"
         :key="index"
-        class="animated-word"
+        class="animated-word special-font"
         v-html="word"
       >
       </span>

@@ -5,11 +5,11 @@
   >
     <div class="container mx-auto px-3 md:px-10">
       <div class="px-5 py-32">
-        <p class="font-circular-web text-lg text-blue-50">Into the Metagame Layer</p>
+        <p class="font-circular-web text-lg text-blue-50">Into eternity</p>
 
         <p class="font-circular-web max-w-md text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant array of products
-          converge into an interconnected overlay experience on your world .
+          On winding shores and towering cliffs, and in forests and mountains full of secrets,
+          witness the Eternity pursued by Her Excellency, the Almighty Narukami Ogosho.
         </p>
       </div>
 
@@ -18,8 +18,9 @@
       >
         <bento-card
           src="/videos/feature-1.mp4"
-          title="radie<b>n</b>t"
-          description="A cross-platform metagame app, turning your activities across Wb2 and Web3 games into a rewarding adventure."
+          title="R<b>a</b>iden S<b>h</b>ogu<b>n</b>"
+          description="Eternity stretches things out over a long time. But each moment within it becomes all the more fragile."
+          title-color="text-[#20293D]"
         />
       </bento-tilt>
 
@@ -27,24 +28,24 @@
         <bento-tilt class="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <bento-card
             src="/videos/feature-2.mp4"
-            title="zig<b>m</b>a"
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion"
+            title="Ka<b>m</b>isato Ay<b>a</b>ka"
+            description="Snow that once adorned the world in silver, thaws to reveal the gleam of the fruit upon frost-laden branches."
           />
         </bento-tilt>
 
         <bento-tilt class="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <bento-card
             src="/videos/feature-3.mp4"
-            title="n<b>e</b>xus"
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            title="Ya<b>e</b> Mi<b>k</b>u"
+            description="I'm not the kind of person who risks life and limb for any old reason"
           />
         </bento-tilt>
 
         <bento-tilt class="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <bento-card
             src="/videos/feature-4.mp4"
-            title="az<b>u</b>l"
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            title="Y<b>o</b>imi<b>y</b>a"
+            description="Fireworks are for now, but friends are forever"
           />
         </bento-tilt>
 

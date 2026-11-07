@@ -23,17 +23,16 @@ useGsap(() => {
     class="min-h-screen w-screen"
   >
     <div class="relative mt-36 mb-8 flex flex-col items-center gap-5">
-      <h2 class="font-general text-sm uppercase md:text-[10px]">Welcome to Zentry</h2>
+      <h2 class="font-general text-sm uppercase md:text-[10px]">Welcome to Inazuma</h2>
 
       <animated-title
-        title="Disc<b>o</b>ver the world's <br/>l<b>a</b>rgest shared adventure"
+        title="Y<b>o</b>u'll nev<b>e</b>r know<br/>even if you di<b>e</b>."
         class="mt-5 text-center text-black!"
       />
 
       <div class="about-subtext">
-        <p>The Game of Games begins-your life, now an epic MMORPG</p>
-
-        <p>Zentry unites every player from countless games and platforms</p>
+        <p>Step into Tevyat, a vast wold teeming with life</p>
+        <p>Wander the thousand stars, shape myriads of wonderlands</p>
       </div>
     </div>
 
@@ -42,9 +41,11 @@ useGsap(() => {
       id="clip"
     >
       <div class="mask-clip-path about-image">
-        <img
-          src="/img/about.webp"
-          alt="Background"
+        <video
+          src="/videos/about.mp4"
+          loop
+          muted
+          autoplay
           class="absolute top-0 left-0 size-full object-cover"
         />
       </div>

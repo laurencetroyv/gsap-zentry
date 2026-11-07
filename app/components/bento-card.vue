@@ -3,6 +3,7 @@ interface Props {
   src: string
   title: string
   description?: string
+  descriptionColor?: string
 }
 
 defineProps<Props>()
@@ -20,12 +21,12 @@ defineProps<Props>()
 
     <div class="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
       <h1
-        class="bento-title special-font"
+        class="bento-title special-font text-[#20293D]"
         v-html="title"
       ></h1>
       <p
         v-if="description"
-        class="mt-3 max-w-64 text-xl md:text-base"
+        class="mt-3 max-w-64 text-xl md:text-base p-2 bg-black/20 rounded-md"
       >
         {{ description }}
       </p>

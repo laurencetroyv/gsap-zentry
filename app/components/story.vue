@@ -48,7 +48,7 @@ function handleMouseMove(e: MouseEvent) {
     class="min-h-dvh w-screen bg-black text-blue-50"
   >
     <div class="flex size-full flex-col items-center py-10 pb-24">
-      <p class="font-general text-sm uppercase md:text-[10px]">the multiversal ip world</p>
+      <p class="font-general text-sm uppercase md:text-[10px]">An Isolated Archipelago</p>
 
       <div class="relative size-full">
         <animated-title
@@ -66,7 +66,7 @@ function handleMouseMove(e: MouseEvent) {
                 @mouseenter="handleMouseLeave"
                 @mousemove="handleMouseMove"
                 ref="frame-ref"
-                src="/img/entrance.webp"
+                src="/img/entrance.png"
                 alt="entrance"
                 class="object-contain"
               />
@@ -80,14 +80,14 @@ function handleMouseMove(e: MouseEvent) {
       <div class="-mt-80 flex w-full justify-center md:me-44 md:-mt-64 md:justify-end">
         <div class="flex h-full w-fit flex-col items-center md:items-start">
           <p class="font-circular-web mt-3 max-w-sm text-center text-violet-50 md:text-start">
-            Where realms converge, lies Zentry and the boundless pillar. Discover its secrets and
-            shape your fate amidst infinite opportunities.
+            Overcome endless thunderstorms and set foot on the islands of red maple and cherry blossoms.
           </p>
 
           <custom-button
             id="realm-button"
             title="Discover Prologue"
             class="mt-5"
+            @click="navigateTo('https://www.youtube.com/watch?v=nU0MnCpsUD4', { external: true })"
           />
         </div>
       </div>
