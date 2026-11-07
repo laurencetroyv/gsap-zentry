@@ -13,7 +13,7 @@ const LINKS = [
       class="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row"
     >
       <p class="text-center text-sm md:text-left">
-        &copy; laurencetroyv 2026. All rights reserved.
+        &copy; laurencetroyv | <a href="https://www.hoyoverse.com/en-us/" target="_blank" rel="noopener noreferer">hoyoverse</a> 2026. All rights reserved.
       </p>
 
       <div class="flex justify-center gap-4 md:justify-start">

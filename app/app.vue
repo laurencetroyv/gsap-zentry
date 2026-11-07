@@ -10,7 +10,7 @@ watchEffect(onCleanup => {
   const update = (time: number) => lenis?.raf(time * 1000)
 
   if (import.meta.client) {
-    document.body.style.overflow = is_loading.value ? "hidden" : ""
+  document.body.style.overflow = is_loading.value ? "hidden" : ""
   }
 
   lenis?.on("scroll", ScrollTrigger.update)
