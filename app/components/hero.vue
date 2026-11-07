@@ -31,6 +31,7 @@ useGsap(() => {
 
 <template>
   <div
+      id="home"
     ref="root"
     class="relative h-dvh w-screen overflow-x-hidden"
   >

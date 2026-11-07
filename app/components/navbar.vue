@@ -2,7 +2,7 @@
 import gsap from "gsap"
 
 const AUDIO_BARS = [1, 2, 3, 4]
-const NAV_ITEMS = ["Nexus", "Vault", "Prologue", "About", "Contact"]
+const NAV_ITEMS = ["Home", "About", "Features", "Story", "Contact"]
 
 const audio_ref = useTemplateRef("audio-ref")
 const container_ref = useTemplateRef("nav-container")
