@@ -157,6 +157,7 @@
 body {
   width: 100dvw;
   overflow-x: hidden;
+  overflow-y: hidden;
   background-color: #dfdff0;
   font-family: "General Sans", sans-serif;
 }

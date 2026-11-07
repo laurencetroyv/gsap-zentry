@@ -2,6 +2,7 @@
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
+const { is_loading } = useAppLoader()
 const lenis_ref = useTemplateRef("lenis-ref")
 
 watchEffect(onCleanup => {
@@ -25,6 +26,8 @@ watchEffect(onCleanup => {
     ref="lenis-ref"
     :options="{ autoRaf: false }"
   />
+
+  <loading-animation v-if="is_loading" />
   <main class="min-h-scren relative w-screen overflow-x-hidden">
     <hero />
     <about />

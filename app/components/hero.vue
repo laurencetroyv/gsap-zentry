@@ -2,11 +2,11 @@
 import gsap from "gsap"
 import CustomButton from "~/components/custom-button.vue"
 
+const { finish } = useAppLoader()
 const total_videos = 4
 
 const current_index = ref(1)
 const has_clicked = ref(false)
-const is_loading = ref(true)
 const loaded_videos = ref(0)
 
 const upcoming_video_index = computed(() => (current_index.value % total_videos) + 1)
@@ -25,17 +25,8 @@ function getVideoSource(index: number) {
 
 function handleVideoLoad() {
   loaded_videos.value += 1
+  if (loaded_videos.value >= 3) finish()
 }
-
-watch(
-  loaded_videos,
-  () => {
-    if (loaded_videos.value >= total_videos - 1) {
-      is_loading.value = false
-    }
-  },
-  { immediate: true },
-)
 
 useGsap(
   () => {
@@ -86,16 +77,6 @@ useGsap(() => {
     ref="root"
     class="relative h-dvh w-screen overflow-x-hidden"
   >
-    <div
-      v-if="is_loading"
-      class="flex-center absolute z-100 h-dvh w-screen overflow-hidden bg-violet-50"
-    >
-      <div class="three-body">
-        <div class="three-body__dot"></div>
-        <div class="three-body__dot"></div>
-        <div class="three-body__dot"></div>
-      </div>
-    </div>
     <div
       id="video-frame"
       class="bg-blue-75 relative z-10 h-dvh w-screen overflow-hidden rounded-lg"
